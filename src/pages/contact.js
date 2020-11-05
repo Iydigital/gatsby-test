@@ -5,9 +5,9 @@ import Header from "../components/header"
 export default function Home() {
   return (
     <div style={{color:'red'}}>
-      <Header headerText="Homepage" />
-      <p>Wow, nice.</p>
-      <Link to="/contact/">Contact</Link>
+      <Header headerText="Contact" />
+      <p>You made it.</p>
+      <Link to="/">Home</Link>
     </div>
   )
 }
